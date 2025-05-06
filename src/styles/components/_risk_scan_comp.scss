@@ -1,0 +1,78 @@
+.scan-progress-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #eaebeb;
+  width: 100%;
+
+  .scan-progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+
+    .scan-progress-title {
+      font-size: 16px;
+      font-weight: 500;
+      color: #0c0d0d;
+    }
+
+    .scan-progress-priority {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 4px;
+      width: 60px;
+      height: 34px;
+      border-radius: 26px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      &.priority-high {
+        color: #ef4444;
+        background-color: #fecaca33;
+      }
+
+      &.priority-medium {
+        color: #2563eb;
+        background-color: #bfdbfe33;
+      }
+
+      &.priority-low {
+        color: #09863d;
+        background-color: #d9f99d33;
+      }
+    }
+  }
+
+  .scan-progress-bar-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    // Override Ant Design progress bar styles
+    .ant-progress {
+      flex-grow: 1;
+
+      .ant-progress-bg {
+        height: 8px !important;
+        border-radius: 4px;
+      }
+
+      .ant-progress-outer {
+        margin-right: 0;
+        padding-right: 0;
+      }
+    }
+
+    .scan-progress-percentage {
+      font-size: 16px;
+      font-weight: 500;
+      color: #0c0d0d;
+      min-width: 40px;
+      text-align: right;
+    }
+  }
+}

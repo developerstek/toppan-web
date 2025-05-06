@@ -1,0 +1,218 @@
+// Custom table styling to match the design in the image
+.custom-table-wrapper {
+  .custom-table {
+
+    // Override Ant Design table styles
+    // .ant-table {
+    //   background-color: transparent;
+    //   border-spacing: 0px 5px !important;
+
+
+    //   .ant-table-thead>tr {
+    //     background-color: #e5edf8; // Light blue background for header
+    //     border-radius: 8px 8px 0 0;
+    //     //  overflow: hidden;
+    //     // display: inline-table;
+    //     // width: 100%;
+
+    //     >th {
+    //       background-color: #e5edf8; // Light blue background for header
+    //       color: #0c0d0d;
+    //       font-weight: 500;
+    //       font-size: 14px;
+    //       padding: 12px 16px;
+    //       border-bottom: none;
+
+    //       // First and last th elements for border radius
+    //       &:first-child {
+    //         border-top-left-radius: 8px;
+    //         border-bottom-left-radius: 8px;
+    //       }
+
+    //       &:last-child {
+    //         border-top-right-radius: 8px;
+    //         border-bottom-right-radius: 8px;
+    //       }
+
+    //       // Remove default hover effect
+    //       &:hover {
+    //         background-color: #e6f0f9 !important;
+    //       }
+    //     }
+    //   }
+
+    //   // Table row styling
+    //   // .ant-table-tbody>tr {
+    //   //   background-color: #ffffff;
+
+
+
+
+    //   //   // display: inline-table;
+    //   //   // width: 100%;
+    //   //   // border: 1px solid #f0f0f0;
+    //   //   // border: 1px solid green;
+    //   //   // background-color: red;
+
+    //   //   &:hover {
+    //   //     background-color: #f9f9f9 !important;
+    //   //   }
+
+    //   //   // Last row border radius
+
+    //   //   >td {
+    //   //     border-top: 1px solid #eaebeb;
+    //   //     border-bottom: 1px solid #eaebeb;
+
+
+    //   //     &:first-child {
+    //   //       //   background-color: red;
+    //   //       border-left: 1px solid #eaebeb;
+    //   //       border-bottom-left-radius: 8px;
+    //   //       border-top-left-radius: 8px;
+    //   //     }
+
+    //   //     &:last-child {
+    //   //       border-bottom-right-radius: 8px;
+    //   //       border-top-right-radius: 8px;
+    //   //       border-right: 1px solid #eaebeb;
+    //   //     }
+    //   //   }
+
+    //   //   >td {
+    //   //     padding: 12px 16px;
+    //   //     //   border-bottom: 1px solid #f0f0f0;
+
+    //   //     // Remove border from the last row
+    //   //     .ant-table-tbody>tr:last-child & {
+    //   //       border-bottom: none;
+    //   //     }
+    //   //   }
+    //   // }
+
+
+
+
+    // // Table cell styling
+
+    //   // Adjust table cell content alignment
+    //   .ant-table-cell {
+    //     font-size: 14px;
+    //   }
+    // }
+
+
+
+
+
+
+
+
+
+    .ant-table-sticky-holder {
+
+      background: #f5f5f5 !important;
+
+
+      table {
+        border-spacing: 0px 5px !important;
+      }
+    }
+
+
+
+
+    table {
+      border-spacing: 0px 16px;
+
+
+    }
+
+    .ant-table-measure-row {
+      display: none;
+    }
+
+    thead>tr>th {
+      border-width: 1px 0px 1px 0px;
+      border-style: solid;
+      border-color: #EAEBEB;
+      background-color: #0047BB1A !important;
+      padding: 10px !important;
+      color: #0C0D0D !important;
+      font-weight: 500 !important;
+      font-size: 16px;
+
+      &::before {
+        content: normal !important;
+      }
+
+      &:first-child {
+        border-top-left-radius: 14px !important;
+        border-bottom-left-radius: 14px;
+        border-width: 1px 0px 1px 1px;
+        padding-left: 16px !important;
+      }
+
+      &:last-child {
+        border-width: 1px 1px 1px 0px;
+        border-top-right-radius: 14px !important;
+        border-bottom-right-radius: 14px;
+        padding-right: 16px !important;
+      }
+    }
+
+    .ant-table-tbody>tr>td {
+      border-width: 1px 0px 1px 0px;
+      border-style: solid;
+      border-color: #EAEBEB;
+      background-color: white;
+      padding: 12px 10px;
+      color: #0C0D0D;
+      font-size: 14px;
+
+      &:first-child {
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        border-width: 1px 0px 1px 1px;
+        padding-left: 16px !important;
+      }
+
+      &:last-child {
+        border-width: 1px 1px 1px 0px;
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+        padding-right: 16px !important;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Pagination styling
+    .ant-pagination {
+      margin: 16px 0;
+
+      .ant-pagination-item-active {
+        border-color: #1890ff;
+
+        a {
+          color: #1890ff;
+        }
+      }
+    }
+  }
+
+
+}

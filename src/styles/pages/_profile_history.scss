@@ -1,0 +1,146 @@
+.profile-history-container {
+  border: 1px solid #EAEBEB;
+  border-radius: 12px;
+  backdrop-filter: blur(64px);
+  padding: 16px;
+
+  .profile-history-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 16px;
+
+    .profile-history-icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      background: #0047BB0D;
+    }
+
+    .profile-historytitle {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0C0D0D;
+      margin: 0;
+    }
+  }
+
+  .timeline {
+    .timeline-item {
+      border-bottom: 1px solid #EAEBEB;
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+
+      &:last-child {
+        border-bottom: unset;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      .ant-col {
+        border-right: 1px solid #EAEBEB;
+
+        &:last-child {
+          border-right: unset;
+        }
+      }
+
+      .timeline-content {
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: #3B4145;
+          margin: 0;
+          margin-top: 4px;
+
+          &:first-child {
+            margin-top: 0;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          span {
+            font-weight: 500;
+            color: #0C0D0D;
+          }
+
+          .details-link {
+            color: #3B82F6;
+            border-bottom: 1px solid #3B82F6;
+          }
+        }
+
+        .timestamp {
+          font-size: 16px;
+          color: #888E91;
+          font-weight: 500;
+          margin-top: 6px;
+          display: block;
+        }
+
+        .timeline-icon {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+
+        .timeline-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+
+          .status {
+            width: 107px;
+            height: 34px;
+            border-radius: 26px;
+            gap: 10px;
+            padding: 6px 8px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+
+
+
+            &.accepted {
+              background: #D9F99D33;
+              color: #09863D;
+            }
+
+            &.pending {
+              background: #BFDBFE33;
+              color: #2563EB;
+            }
+          }
+        }
+
+        .image-container {
+          margin-top: 14px;
+
+          .verification-image {
+            width: 100%;
+            max-width: 375px;
+            height: auto;
+            border-radius: 12px;
+            object-fit: cover;
+            margin: 0 auto;
+            display: block;
+          }
+        }
+
+        .timeline-title {
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+    }
+  }
+}
+
+// 

@@ -1,0 +1,32 @@
+.uploaded-document {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: #fafafa;
+    border: 1px solid #eaebeb;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.document-icon {
+    margin-right: 12px;
+}
+
+.document-info {
+    flex: 1;
+}
+
+.document-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0c0d0d;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.document-meta {
+    font-size: 16px;
+    font-weight: 500;
+    color: #888e91;
+    line-height: 1;
+}

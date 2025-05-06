@@ -1,0 +1,151 @@
+.main_div_user_information {
+  .cumulative_risk_score {
+    margin-top: 20px !important;
+  }
+
+  .session_info_content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    .inner_session_info_content {
+      width: 100%;
+    }
+  }
+
+  .inner_div_user_information {
+    border: 1px solid #eaebeb;
+    border-radius: 16px;
+    padding: 16px;
+
+    .header_div_user_information {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+
+      .header_icon_div {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        background: #0047bb0d;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+        color: #0c0d0d;
+      }
+    }
+
+    .card_div_user_information {
+      padding-top: 16px;
+
+      .content_wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        p {
+          color: #3b4145;
+          padding: 0px;
+          margin: 0px;
+          font-weight: 400;
+          font-size: 16px;
+        }
+
+        .badge_risk_score {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          width: 60px;
+          height: 34px;
+          background-color: #d9f99d33;
+          border-radius: 26px;
+          color: #09863d;
+        }
+      }
+
+      .progress_bar_div {
+        padding-top: 14px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .progress-percentage {
+          font-size: 16px;
+          font-weight: 500;
+          color: #0c0d0d;
+          min-width: 40px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+// session info row styling
+.session-info-row {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   padding: 8px 0;
+  //   border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 16px;
+
+  .ant-row {
+    align-items: center;
+  }
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .session-info-label {
+    font-size: 16px;
+    color: #666;
+
+    &.verification-label {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+  }
+
+  .session-info-value {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    text-align: right;
+  }
+
+  &.session-info-row-inline {
+    padding-bottom: 0;
+
+    &>div {
+      display: inline-block;
+
+      &.session-info-label {
+        font-weight: 500;
+        color: #000;
+      }
+
+      &.session-info-value {
+        color: #666;
+        font-weight: 400;
+      }
+    }
+  }
+}

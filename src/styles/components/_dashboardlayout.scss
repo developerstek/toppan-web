@@ -1,0 +1,63 @@
+.ant-layout {
+  background-color: #fafafa;
+
+  .custom_sider_collapse {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-color: #fafafa;
+    height: 100vh;
+    transition: all 1s ease-in;
+    max-width: 80px !important;
+    min-width: 80px !important;
+    width: 80px !important;
+    flex: 0 0 80px;
+
+    .ant-layout-sider-children {
+      .layout_logo {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .ant-menu-root {
+        border-inline-end: unset !important;
+      }
+    }
+  }
+
+  .custom_sider {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-color: #fafafa;
+    height: 100vh;
+    // background-color: red;
+    transition: all 1s ease-in-out;
+    flex: 0 0 250px !important;
+    max-width: 250px !important;
+    min-width: 250px !important;
+    width: 250px !important;
+
+    .ant-layout-sider-children {
+      .layout_logo {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .ant-menu-root {
+        border-inline-end: unset !important;
+      }
+    }
+  }
+
+  .ant-menu-light.ant-menu-root.ant-menu-inline {
+    border-right: 0px;
+    border-inline-end: unset !important;
+  }
+}

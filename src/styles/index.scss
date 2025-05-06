@@ -1,0 +1,48 @@
+@use "../assets/fonts/stylesheet.scss";
+
+// components scss
+@use "./components/utility_style";
+@use "./components/setting_secuirty";
+@use "./components/setting_notification";
+@use "./components/settings_layout";
+@use "./components/setting_edit_profile";
+@use "./components/file_viewer_modal";
+@use "./components/reporting_listing";
+@use "./components/custom_tabs";
+@use "./components/risk_scan_comp";
+@use "./components/facialRecognitionAccuracy";
+@use "./components/custom_table";
+@use "./components/customer_action";
+@use "./components/donut_chart";
+@use "./components/dashboardlayout";
+@use "./components/header";
+@use "./components/authlayout";
+@use "./components/otp";
+@use "./components/_activity_logs_component";
+@use "./components/_scan_images";
+@use "./components/facial_verificatio_score";
+@use "./components/qbox_style";
+@use "./components/file_upload_style";
+@use "./components/phone_field_style";
+@use "./components/uploaded_document_style";
+@use "./components/edit_additional_document";
+@use "./components/profile_picture_updater";
+
+// pages scss
+@use "./pages/home";
+@use "./pages/all_customers";
+@use "./pages/customer_details";
+@use "./pages/user_info";
+@use "./pages/profile_history";
+@use "./pages/activity_logs";
+@use "./pages/facial_verification";
+@use "./pages/scan_document";
+@use "./pages/reporting_module";
+@use "./pages/verification_points";
+@use "./pages/edit_customer_profile";
+
+body {
+  margin: 0px;
+  font-family: "Satoshi", sans-serif;
+  line-height: normal;
+}

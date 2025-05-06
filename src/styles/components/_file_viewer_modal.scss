@@ -1,0 +1,18 @@
+.file_viewer_modal {
+  width: 100% !important;
+  //   height: 100vh;
+  .ant-modal-content {
+    background-color: transparent !important;
+    button {
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+    .ant-modal-body {
+      .modal_body_file_viewer {
+        padding: 20px;
+      }
+    }
+  }
+}

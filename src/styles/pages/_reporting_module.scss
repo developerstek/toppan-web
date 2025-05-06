@@ -1,0 +1,76 @@
+.reporting_module_main_div {
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0c0d0d;
+  }
+  //   .reporting_listing_div {
+  //   }
+}
+
+// reporting module detail page scss
+.main_div_report_details {
+  .back_arrow_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    .arrow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      cursor: pointer;
+    }
+    p {
+      color: #0c0d0d;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .header_report_details_title_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    h1 {
+      margin: 0px;
+      padding: 0px;
+      font-weight: 700;
+      font-size: 20px;
+      color: #0c0d0d;
+    }
+  }
+  .header_report_details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    .search_field {
+      width: 355px;
+    }
+    .header_report_details_filters_div {
+      width: 70%;
+      height: 60px;
+      overflow-x: scroll;
+      scrollbar-width: none;
+      //   scroll-behavior: smooth;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+      .header_report_details_filters {
+        .filter_select {
+          width: 200px;
+        }
+        .filter_datepicker {
+          width: 200px;
+        }
+      }
+    }
+  }
+  .table_div {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,25 @@
+.FacialVerificationScore {
+    border: 1px solid #EAEBEB;
+    border-radius: 16px;
+    padding: 16px;
+
+    .FacialVerificationScore-percentage {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 4px;
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #3B4145;
+            margin: 0;
+        }
+
+        .progress-percentage {
+            font-size: 16px;
+            font-weight: 500;
+            color: #0C0D0D;
+        }
+    }
+}

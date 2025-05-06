@@ -1,0 +1,53 @@
+.facial-verification-container {
+  border: 1px solid #eaebeb;
+  border-radius: 12px;
+  backdrop-filter: blur(64px);
+  padding: 16px;
+
+  .facial-verification-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 16px;
+
+    .facial-verification-icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      background: #0047bb0d;
+    }
+
+    .facial-verificationtitle {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0c0d0d;
+      margin: 0;
+    }
+  }
+
+  .facial-verification-body {
+    .facial-verification-score {
+      margin-bottom: 20px;
+    }
+    .facial-verification-dec {
+      h6 {
+        font-size: 16px;
+        font-weight: 500;
+        color: #0c0d0d;
+        margin: 12px 0px 8px 0px;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #3b4145;
+        margin: 0;
+      }
+    }
+  }
+}
+
+//

@@ -1,0 +1,15 @@
+.main_div_all_customers {
+  h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0c0d0d;
+  }
+}
+
+// customer header component styling
+.customer_header_main_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}

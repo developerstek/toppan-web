@@ -1,0 +1,67 @@
+.qbox-card {
+    margin-bottom: 15px;
+
+    .qbox-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #0047bb;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .qbox-card-inner {
+        border: 1px solid #eaebeb;
+        border-radius: 16px;
+        padding: 16px;
+
+        .qbox-ques {
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 16px;
+            display: block;
+            color: #666;
+        }
+
+        .qbox-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .qbox-outer {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                .qbox-icon {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 8px;
+                    background: rgba(61, 194, 178, 0.05);
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .qbox-content {
+                    span {
+                        &.qbox-ans-title {
+                            font-weight: 500;
+                            font-size: 16px;
+                            color: #0C0D0D;
+                            margin-bottom: 8px;
+                        }
+
+                        line-height: 1.2;
+                        display: block;
+                        color: #666;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+
+}

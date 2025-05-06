@@ -1,0 +1,57 @@
+.activity_logs_details {
+    .activity_logs_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+
+        .activity_logs_title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #0C0D0D;
+            margin: 0;
+        }
+
+        .activity_logs_date {
+            font-size: 16px;
+            font-weight: 500;
+            color: #888E91;
+            margin: 0;
+        }
+    }
+
+    .activity_logs_body {
+        .activity_logs_dec {
+            font-size: 16px;
+            font-weight: 400;
+            color: #3B4145;
+            margin: 0;
+            margin-bottom: 8px;
+        }
+
+        .activity_logs_title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #0C0D0D;
+            margin: 0;
+            margin-bottom: 8px;
+        }
+
+        .pre-value {
+            color: #EF4444;
+
+            span {
+                color: #EF4444;
+            }
+        }
+
+        .new-value {
+            color: #09863D;
+
+            span {
+                color: #09863D;
+            }
+        }
+    }
+
+}

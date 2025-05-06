@@ -1,0 +1,186 @@
+.settings-title {
+  padding-bottom: 20px;
+  margin: 0px;
+  color: #0c0d0d;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.settings-layout {
+  //   min-height: 100vh;
+  background-color: #ffffff !important;
+
+  .settings-sider {
+    background-color: #ffffff;
+    border: 1px solid #eaebeb;
+    border-radius: 16px;
+    height: 320px;
+    // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 24px 0;
+    // height: 100vh;
+    // position: fixed;
+    left: 0;
+    // overflow: auto;
+
+    .settings-menu {
+      border-right: none;
+
+      .menu-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #0c0d0d;
+        font-size: 16px;
+        font-weight: 400;
+        // justify-content: space-between;
+        // margin: 4px 16px;
+        border-radius: 6px;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+          flex-grow: 1;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 241px;
+          right: 0px;
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M14.4301%2018.8201C14.2401%2018.8201%2014.0501%2018.7501%2013.9001%2018.6001C13.6101%2018.3101%2013.6101%2017.8301%2013.9001%2017.5401L19.4401%2012.0001L13.9001%206.46012C13.6101%206.17012%2013.6101%205.69012%2013.9001%205.40012C14.1901%205.11012%2014.6701%205.11012%2014.9601%205.40012L21.0301%2011.4701C21.3201%2011.7601%2021.3201%2012.2401%2021.0301%2012.5301L14.9601%2018.6001C14.8101%2018.7501%2014.6201%2018.8201%2014.4301%2018.8201Z%22%20fill%3D%22%230C0D0D%22/%3E%3Cpath%20d%3D%22M20.33%2012.75L3.5%2012.75C3.09%2012.75%202.75%2012.41%202.75%2012C2.75%2011.59%203.09%2011.25%203.5%2011.25L20.33%2011.25C20.74%2011.25%2021.08%2011.59%2021.08%2012C21.08%2012.41%2020.74%2012.75%2020.33%2012.75Z%22%20fill%3D%22%230C0D0D%22/%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+
+      .ant-menu-item-selected {
+        background-color: transparent;
+        color: #0047bb;
+        font-size: 16px;
+        font-weight: 400;
+
+        &::after {
+          position: absolute;
+          left: 241px;
+          right: 0px;
+          background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M14.4301%2018.8201C14.2401%2018.8201%2014.0501%2018.7501%2013.9001%2018.6001C13.6101%2018.3101%2013.6101%2017.8301%2013.9001%2017.5401L19.4401%2012.0001L13.9001%206.46012C13.6101%206.17012%2013.6101%205.69012%2013.9001%205.40012C14.1901%205.11012%2014.6701%205.11012%2014.9601%205.40012L21.0301%2011.4701C21.3201%2011.7601%2021.3201%2012.2401%2021.0301%2012.5301L14.9601%2018.6001C14.8101%2018.7501%2014.6201%2018.8201%2014.4301%2018.8201Z%22%20fill%3D%22%230047BB%22/%3E%3Cpath%20d%3D%22M20.33%2012.75L3.5%2012.75C3.09%2012.75%202.75%2012.41%202.75%2012C2.75%2011.59%203.09%2011.25%203.5%2011.25L20.33%2011.25C20.74%2011.25%2021.08%2011.59%2021.08%2012C21.08%2012.41%2020.74%2012.75%2020.33%2012.75Z%22%20fill%3D%22%230047BB%22/%3E%3C/svg%3E");
+        }
+        svg {
+          path {
+            fill: #0047bb;
+          }
+        }
+
+        // a {
+        //   //   color: #1890ff;
+        // }
+      }
+    }
+
+    .deactivate-button {
+      margin: 24px;
+      width: calc(100% - 48px);
+      text-align: left;
+      border: 2px solid #ef4444;
+      color: #ef4444;
+      font-weight: 500;
+      border-radius: 10px;
+      height: 46px;
+      background: #fecaca33;
+
+      .anticon {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .settings-content {
+    // margin-left: 280px;
+    // padding: 24px;
+    padding-left: 20px;
+    background-color: #ffffff;
+  }
+}
+
+// Shared styles for all settings pages
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+
+  h3 {
+    margin: 0px;
+    padding: 0px;
+    color: #0c0d0d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  .ant-btn {
+    border-radius: 6px;
+
+    .anticon {
+      margin-right: 8px;
+    }
+  }
+}
+
+.profile-section {
+  background-color: #fff;
+  border: 1px solid #eaebeb;
+  border-radius: 8px;
+  padding: 24px;
+  //   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  .profile-picture-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    h2 {
+      color: #0c0d0d;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .profile-info-item {
+    margin-bottom: 8px;
+
+    .profile-info-label {
+      display: block;
+      color: #6e7477;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 4px;
+      font-size: 14px;
+    }
+
+    .profile-info-value {
+      font-size: 16px;
+      color: #0c0d0d;
+      font-weight: 500;
+    }
+  }
+}
+
+// Responsive styles
+@media (max-width: 768px) {
+  .settings-layout {
+    .settings-sider {
+      position: relative;
+      width: 100% !important;
+      height: auto;
+    }
+
+    .settings-content {
+      margin-left: 0;
+    }
+  }
+}

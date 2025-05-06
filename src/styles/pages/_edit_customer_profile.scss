@@ -1,0 +1,22 @@
+.main_div_edit_customer_profile {
+    .inner_div_user_information {
+        border: unset;
+
+        .header_div_user_information {
+            margin-bottom: 32px;
+        }
+
+        .btn-wrap {
+            margin-top: 16px;
+
+            button {
+                min-width: 168px;
+            }
+
+            &.btn-right {
+                text-align: right;
+            }
+
+        }
+    }
+}

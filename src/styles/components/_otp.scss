@@ -1,0 +1,86 @@
+.colorBlack {
+  color: #000;
+  display: block;
+}
+
+.OtpInput-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    margin: 15px 0px;
+  }
+
+  .expire_para {
+    padding-top: 10px !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0c0d0d !important;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 0px !important;
+    span {
+      color: #3dc2b2;
+      font-weight: 500;
+      &.resend_link {
+        cursor: pointer;
+      }
+      &.resend_link_color {
+        color: #6e7477;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .time_text {
+    text-align: center;
+    // color: $Grey;
+
+    span {
+      //   color: $black;
+      font-weight: 800;
+    }
+  }
+
+  input[value=""] {
+    border-color: #eaebeb !important;
+    background-color: #fafafa !important;
+  }
+
+  //   input[value] {
+  //     // border-color: #0047bb !important;
+  //   }
+
+  input {
+    width: 48px !important;
+    height: 48px;
+    border: 1px solid;
+    font-family: "Satoshi", sans-serif;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    //   color: $black;
+    background: #ffff;
+
+    &::placeholder {
+      color: #6e7477;
+    }
+
+    &:focus,
+    &:focus-visible {
+      outline: none;
+    }
+
+    &::selection {
+      color: none;
+      background: none;
+    }
+
+    /* For Mozilla Firefox */
+    &::-moz-selection {
+      color: none;
+      background: none;
+    }
+  }
+}

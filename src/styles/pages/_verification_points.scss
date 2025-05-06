@@ -1,0 +1,140 @@
+.backarrow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 24px 0px;
+
+    .backarrow-svg {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    h6 {
+        font-size: 16px;
+        font-weight: 500;
+        color: #0C0D0D;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.VerificationPoints-container {
+    padding: 16px;
+    border: 1px solid #EAEBEB;
+    border-radius: 16px;
+
+    .VerificationPoints-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+
+        h2 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #0C0D0D;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex: 0 0 250px;
+            text-align: center;
+
+            li {
+                font-size: 16px;
+                font-weight: 400;
+                color: #3B4145;
+                flex: 0 0 40%;
+            }
+        }
+    }
+
+    .VerificationPoints-radio {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #EAEBEB;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+
+        &:last-child {
+            border-bottom: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .VerificationPoints-radio-title {
+            font-size: 16px;
+            font-weight: 400;
+            color: #3B4145;
+            flex: 1 1 auto;
+        }
+
+        .VerificationPoints-radio-input {
+            flex: 0 0 250px;
+
+            .ant-radio-group {
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+
+                .ant-radio-wrapper {
+                    margin: 0;
+                    width: 40%;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .VerificationPoints-comment {
+        h4 {
+            font-size: 16px;
+            font-weight: 400;
+            color: #0C0D0D;
+            padding: 0;
+            margin: 24px 0px 8px 0px;
+        }
+    }
+
+    .VerificationPoints-button {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 24px;
+
+        button {
+            border: none;
+            padding: 16px 24px;
+            height: 40px;
+            font-weight: 500;
+            font-size: 16px;
+            border-radius: 8px;
+            width: 100%;
+            color: #fff;
+
+            &.btn-approve {
+                background-color: #09863D;
+
+                &:hover {
+                    background-color: #09863D;
+                }
+            }
+
+            &.btn-reject {
+                background-color: #EF4444;
+
+                &:hover {
+                    background-color: #EF4444;
+                }
+            }
+        }
+    }
+}

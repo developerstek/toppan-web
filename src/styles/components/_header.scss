@@ -1,0 +1,92 @@
+.ant-layout-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: unset;
+  padding: 0px;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid #eaebeb;
+  // border-top-left-radius: 15px;
+  // border-top-right-radius: 15px;
+  padding-bottom: 18px;
+  margin: 0 0 24px;
+  button.ant-btn.header-icon-faolting {
+    position: absolute;
+    left: -50px;
+    top: 12px;
+    box-shadow: 0 0 0;
+    width: 26px;
+  }
+
+  .header_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .badge_container {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      gap: 18px;
+
+      .profile_username {
+        h3 {
+          padding: 0px;
+          margin: 0px;
+          font-weight: normal;
+          color: #000000;
+          font-size: 16px;
+          font-weight: 400;
+        }
+
+        p {
+          padding: 0px;
+          margin: 0px;
+          font-weight: normal;
+          color: #3b4145;
+          font-size: 14px;
+          font-weight: 400;
+
+          a {
+            color: #3b4145;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    .header_title {
+      h2 {
+        padding: 0 0 6px;
+        margin: 0 0 0px;
+        line-height: normal;
+        color: #0c0d0d;
+        font-size: 24px;
+        font-weight: 500;
+      }
+
+      p {
+        padding: 0px;
+        margin: 0px;
+        font-size: 16px;
+        color: #888e91;
+      }
+    }
+
+    .badge_container {
+      .ant-badge {
+        svg {
+          cursor: pointer;
+        }
+
+        .ant-badge-dot {
+          top: 5px;
+          right: 7px;
+        }
+      }
+    }
+  }
+}

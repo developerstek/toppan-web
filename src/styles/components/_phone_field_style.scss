@@ -1,0 +1,49 @@
+.phone-label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.phone-container {
+    width: 100%;
+    max-width: 500px;
+
+    .flag-dropdown {
+        border-right: none !important;
+
+        .selected-flag {
+            &:hover {
+                background: transparent !important;
+            }
+        }
+    }
+}
+
+.phone-input {
+    width: 100% !important;
+    height: 46px !important;
+    border: 1px solid #eaebeb !important;
+    border-radius: 8px !important;
+    padding: 8px 8px 8px 50px !important;
+    font-size: 14px !important;
+
+    &:focus {
+        border-color: #0047bb !important;
+        box-shadow: none !important;
+    }
+}
+
+.country-button {
+    background: transparent !important;
+    border: none !important;
+    border-right: 1px solid #eaebeb !important;
+    border-radius: 8px 0 0 8px !important;
+    padding: 0 8px !important;
+}
+
+.country-dropdown {
+    border-radius: 8px !important;
+    border: 1px solid #eaebeb !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
